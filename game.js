@@ -38,7 +38,7 @@ function animatePress(currentColour){
         $(this).removeClass("pressed");});
 }
 
-$('body').on('keypress', function(){
+$('body').on('click', function(){
     if (!started){
         nextSequence();
         started = true;
