@@ -38,7 +38,7 @@ function animatePress(currentColour){
         $(this).removeClass("pressed");});
 }
 
-$('body').on('click', function(){
+$('h1').on('click', function(){
     if (!started){
         nextSequence();
         started = true;
